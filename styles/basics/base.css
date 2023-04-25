@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.paging-btns {
+    color: var(--clr6);
+    font-family: Lato-Bold, sans-serif;
+    letter-spacing: 0.05625rem;
+    text-transform: uppercase;
+    padding: 1.875rem;
+    border-block-start: 1px solid var(--clr13);
+}
+
+.paging-btns a {
+    cursor: pointer;
+}

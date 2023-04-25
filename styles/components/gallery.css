@@ -1,0 +1,95 @@
+
+.gallery-text {
+    height: 307px;
+}
+
+.card-title {
+    height: 51px;
+    font-family: Lato-Bold, sans-serif;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    line-height: 1.875rem;
+    color: var(--clr4);
+    margin-block-start: 0;
+    margin-block-end: 48px;
+}
+
+.card-p {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 1rem;
+    line-height: 1.25em;
+    letter-spacing: 0.03em;
+    color: var(--clr5);
+    margin-inline-end: 1.5625rem;
+}
+
+.gallery-text p:first-of-type {
+    margin-block-end: 0.875rem;
+}
+
+.gallery-text p {
+    margin-block-start: 0;
+    margin-block-end: 2.125rem;
+    letter-spacing: 0.03rem;
+}
+
+.btn-card {
+    font-family: Lato-Bold, sans-serif;
+    width: 186px;
+    height: 40px;
+    letter-spacing: 0.03em;
+    margin-block-end: 0;
+    padding-inline-start: 1.625em;
+    border: 2px solid var(--clr11);
+    background-color: var(--clr16);
+    color: var(--clr10);
+    font-size: 1rem;
+    border-radius: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.btn-card:hover {
+    border: 2px solid var(--clr8);
+    color: var(--clr8);
+    width: 210px;
+}
+
+.btn-card::after {
+    content: '';
+    width: 0;
+    transition: width 600ms ease-out, opacity 600ms ease-out;
+    opacity: 0;
+    display: inline-block;
+}
+
+.btn-card:hover::after {
+    width: auto;
+    margin-inline-start: 5px;
+    content: '→';
+    transition: 300ms ease-out;
+    opacity: 1;
+}
+
+.img-container {
+    height: 10.8125rem;
+    width: 12.5rem;
+    cursor: pointer;
+}
+
+.gallery-layout {
+    /* border: 1px solid var(--clr13); */
+    border-radius: 10px;
+    background-color: darkgray;
+    /* padding: 20px; */
+}
+
+nav.navigation {
+    margin: 1.5625rem
+}
+
+input.search {
+    border-radius: 1.8125rem;
+    background-color: black;
+}
+

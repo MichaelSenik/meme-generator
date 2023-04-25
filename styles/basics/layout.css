@@ -1,0 +1,30 @@
+/* MAIN LAYOUT */
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 20px auto 20px;
+}
+
+.main-layout > *:not(.full) {
+    grid-column: 2;
+}
+
+.main-layout > .full {
+    grid-column: 1 / -1;
+}
+
+/* CARD LAYOUT */
+
+.images-layout {
+    display: grid;
+    /* grid-auto-flow: column; */
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 1.875rem;
+    padding: 20px;
+    /* row-gap: 80px; 
+    border-block-start: 0;
+    grid-template-columns: 1fr 1fr; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content:space-around;
+}

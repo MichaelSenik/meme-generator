@@ -1,0 +1,32 @@
+.main-header {
+    box-shadow: inset 0 -6px 0 var(--clr2);
+    color: var(--clr16);
+    margin-bottom: 2rem;
+    background-color: var(--clr3);
+}
+
+.main-header .main-nav {
+    border-inline-end: 1px solid var(--clr1);
+}
+
+.main-header li {
+    height: 130px;
+    width: 130px;
+    border-inline-start: 1px solid var(--clr1);
+    padding-block: 60px;
+    text-align: center;
+}
+
+.main-header .main-menu a {
+    color: inherit;
+    font-family: Lato-Bold, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 var(--clr2);
+}
+
+.main-header .main-menu li:hover{
+    box-shadow: inset  0 -6px 0  var( --clr8);
+    color: var(--clr8);
+}
