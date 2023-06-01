@@ -1,27 +1,54 @@
 * {
     box-sizing: border-box;
+    padding: 0px;
+}
+
+
+html {
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 
 body {
+    font-size: 1rem;
     margin: 0;
-    background-color: black;
 }
 
 img {
-    height: 100%;
     width: 100%;
-    border-radius: 10px;
+    /* height: auto; */
+    /* object-fit: cover; */
 }
 
-.paging-btns {
-    color: var(--clr6);
-    font-family: Lato-Bold, sans-serif;
-    letter-spacing: 0.05625rem;
-    text-transform: uppercase;
-    padding: 1.875rem;
-    border-block-start: 1px solid var(--clr13);
+a {
+    /* color: var(--clr2); */
+    text-decoration: none;
 }
 
-.paging-btns a {
+button {
     cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
 }
+
+input {
+    border: none;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+

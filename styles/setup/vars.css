@@ -1,19 +1,16 @@
 :root {
-    --clr1: #1d1d1d;
-    --clr2: #1e1e1e;
+    --clr-2: #c2c2c2;
+    --clr-1: #ffffff; 
+    --clr-0: #4f4e4e;
+    --clr-brand: #ff7f00;
+    --clr1: #e3e3e3;
     --clr3: #292929;
-    --clr4: #4f4e4e;
-    --clr5: #606060;
-    --clr6: #818181;
-    --clr7: #516fad;
-    --clr8: #58c93a;
-    --clr9: #a6a6a6;
-    --clr10: #c2c1c1;
-    --clr11: #c2c2c2;
-    --clr12: #e5e5e5;
-    --clr13: #e1e0e0;
-    --clr14: #f2f2f2;
-    --clr15: #f8f8f8;
-    --clr16: #ffffff;
-    --clr17: #939292;
+    --clr4: #040a2c;
+
+    /* LAYOUT */
+    --layout-padding: 1.25rem;
+    --site-width: max-content;
+    --l: 1200px;
+    --m: 860px;
+    --s: 640px;
 }

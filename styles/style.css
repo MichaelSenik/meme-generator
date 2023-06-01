@@ -10,8 +10,13 @@
 /* COMPONENTS */
 @import 'components/header.css';
 @import 'components/logo.css';
+@import 'components/toolbox.css';
+@import 'components/canvas.css';
 @import 'components/gallery.css';
+@import 'components/keywords.css';
 @import 'components/footer.css';
+@import 'components/about.css';
 
-/* MEDIA QUERIS */
+
+/* MEDIA QUERIES */
 @import 'setup/mq.css';

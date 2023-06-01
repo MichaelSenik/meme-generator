@@ -4,14 +4,26 @@
     display: flex;
 }
 
+/* make things go poof */
+.display-none {
+    display: none !important;
+}
+
 .flex.space-between {
     justify-content: space-between;
+}
+
+.flex.justify-center {
+    justify-content: center;
 }
 
 .flex.align-center {
     align-items: center;
 }
 
+.flex.column {
+    flex-direction: column;
+}
 
 /* list helpers */
 

@@ -1,32 +1,69 @@
-.main-header {
-    box-shadow: inset 0 -6px 0 var(--clr2);
-    color: var(--clr16);
-    margin-bottom: 2rem;
-    background-color: var(--clr3);
+.header {
+    background-color: var(--clr-brand);
 }
 
-.main-header .main-nav {
-    border-inline-end: 1px solid var(--clr1);
+.main-nav li a {
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-block: 1em;
+    border-bottom: 1px solid salmon;
+
 }
 
-.main-header li {
-    height: 130px;
-    width: 130px;
-    border-inline-start: 1px solid var(--clr1);
-    padding-block: 60px;
+.main-nav li a:hover {
+    color: var(--clr4);
+}
+
+.hamburger {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    justify-self: end;
+    padding: 0.75rem;
+    margin: 0.25rem;
+    font-size: 2rem;
+    background-color: var(--clr-brand);
+    border: none;
+    color: white;
+}
+
+/* mobile menu */
+.main-nav {
+    position: fixed;
+    flex-direction: column;
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+    background-color: var(--clr-brand);
+    opacity: 0.9;
+    min-width: 200px;
+    transform: translateX(100%);
+    transition: transform 0.6s;
     text-align: center;
 }
 
-.main-header .main-menu a {
-    color: inherit;
-    font-family: Lato-Bold, sans-serif;
-    font-size: 1rem;
-    letter-spacing: 0.8px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 var(--clr2);
+.menu-open .main-nav {
+    transform: translateX(0);
 }
 
-.main-header .main-menu li:hover{
-    box-shadow: inset  0 -6px 0  var( --clr8);
-    color: var(--clr8);
+.main-screen {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    pointer-events: none;
+}
+
+body.menu-open .main-screen.menu-background {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.active {
+    color: var(--clr4) !important;
 }

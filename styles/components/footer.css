@@ -1,77 +1,10 @@
-.main-footer {
-    /* height: 315px; */
-    border-block-start: 1px solid var(--clr13);
-    background-color: var(--clr15);
-    flex-direction: column;
+
+
+.footer {
+    background-color: var(--clr-brand);
+    padding-block: 3em;
 }
 
-.main-footer .logo-footer {
-    margin-block-start: 80px;
-    margin-block-end: 32px;
-}
-
-.main-footer small {
-    height: 12px;
-    font-family: Lato-Relgular, sans-serif;
-    color: var(--clr9);
-    font-size: 0.8125rem;
-    letter-spacing: 0.39px;
-    margin-block-end: 2.375rem;
-}
-
-small span {
-    font-family: Lato-Bold, sans-serif;
-    color: var(--clr17);
-}
-
-.social-links li {
-    width: 40px;
-    height: 40px;
-    background-color: var(--clr12);
-    margin-inline: 20px;
-    position: relative;
-    margin-block-end: 80px;
-}
-
-.social-links img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-}
-
-.facebook img {
-    width: 0.5rem;
-}
-
-.twitter img {
-    width: 1rem;
-}
-
-.behance img {
-    width: 1rem;
-}
-
-.dribbble img {
-    width: 0.875rem;
-}
-
-.social-links .facebook:hover {
-    background-color: #516fad;
-    cursor: pointer;
-}
-
-.social-links .dribbble:hover {
-    background-color: #ea4c89;
-    cursor: pointer;
-}
-
-.social-links .behance:hover {
-    background-color: #053eff;
-    cursor: pointer;
-}
-
-.social-links .twitter:hover {
-    background-color: #00acee;
-    cursor: pointer;
+.footer span {
+    color: white;
 }
